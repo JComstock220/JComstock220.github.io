@@ -102,6 +102,13 @@ h4 {
     padding-bottom: 1.125rem;
 }
 
+h4 > span{
+    padding-top: 0rem;
+    padding-right: .5rem;
+    padding-bottom: 0rem;
+    padding-left: .5rem;
+}
+
 h5 {
     font-size:1rem;
     margin-top: .25rem;
@@ -117,12 +124,51 @@ h5 {
 
 /* Section & Paragraph */
 
+section{
+    margin-top: .5rem;
+}
 
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 
+figure{
+    margin-bottom: 2rem;
+}
+
+figcaption{
+    padding-top: .5rem;
+    text-align: right;
+}
+
+img{
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+}
 
 
 /* Footer */
 
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-top: 2rem solid #333;
+}
 
