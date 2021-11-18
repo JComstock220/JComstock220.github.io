@@ -166,10 +166,12 @@ ol{
     margin-bottom: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
-    list-style-type: lowercase letter;
+    list-style-type: lower-latin;
 }
 
-.long-list a:hover{}
+.long-list a:hover{
+    text-transform: uppercase;
+}
 
 /* Navigation Menu */
 
