@@ -47,6 +47,12 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+@font-face {
+    font-family: Robato;
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html{
     font-size: 16px;
@@ -57,6 +63,7 @@ header{
     padding-bottom:2rem;
 }
 h1{
+    font-family: Robato, sans-serif;
     text-align: center;
     text-shadow:2px 2px 3px #333;
     transform: rotate(-10deg);
