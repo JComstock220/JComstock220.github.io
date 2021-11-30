@@ -48,6 +48,9 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+html{
+    font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+}
 .article-image{
     float: left;
 }
