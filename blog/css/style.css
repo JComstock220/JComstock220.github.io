@@ -74,6 +74,10 @@ h1{
     transform: rotate(-10deg);
 }
 
+h2{
+    font-size: 2rem;
+    font-family: Robato, sans-serif;  
+}
 p{
     font-family: Robato, sans-serif;
     font-size: .75rem;
