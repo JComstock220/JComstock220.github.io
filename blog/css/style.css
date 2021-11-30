@@ -67,11 +67,11 @@ header{
 
 
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Robato, sans-serif;
     text-align: center;
     text-shadow:2px 2px 3px #333;
-    transform: rotate(-10deg);
+    transform: rotate(-5deg);
 }
 
 h2{
