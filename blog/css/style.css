@@ -60,9 +60,12 @@ html{
 }
 
 header{
-    margin-bottom:4rem;
+    margin-top: 1rem;
+    margin-bottom:2rem;
     padding-bottom:2rem;
 }
+
+
 h1{
     font-family: Robato, sans-serif;
     text-align: center;
@@ -70,7 +73,11 @@ h1{
     transform: rotate(-10deg);
 }
 
-
+p{
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+}
 
 .article-image{
     float: left;
