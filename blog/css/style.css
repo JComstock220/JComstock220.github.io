@@ -63,13 +63,13 @@
 
 html{
     font-size: 16px;
+    color: #333;
     font-family: Robato, Arial, sans-serif;
 }
 
 header{
-    margin-top: 1rem;
-    margin-bottom:2rem;
-    padding-bottom:2rem;
+    margin: 0 auto;
+    padding:2rem;
 }
 
 a{
@@ -80,7 +80,7 @@ h1{
     font-size: 3rem;
     font-family: Robato, sans-serif;
     text-align: center;
-    text-shadow:2px 2px 3px #333;
+    text-shadow:.125rem .125rem .125rem #333;
     transform: rotate(-5deg);
 }
 
