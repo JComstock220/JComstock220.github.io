@@ -54,6 +54,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Ultra;
+    src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html{
     font-size: 16px;
     font-family: Robato, Arial, sans-serif;
@@ -87,4 +94,8 @@ p{
 
 .article-image{
     float: left;
+}
+
+.highlight{
+    font-family: Ultra, Garamond, serif;
 }
