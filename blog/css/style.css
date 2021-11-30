@@ -49,15 +49,19 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 html{
-    font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
 }
 
+header{
+    margin-bottom:4rem;
+    padding-bottom:2rem;
+}
 h1{
     text-align: center;
     text-shadow:2px 2px 3px #333;
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
 }
+
 
 
 .article-image{
