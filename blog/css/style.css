@@ -48,4 +48,6 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-
+.article-image{
+    float: left;
+}
