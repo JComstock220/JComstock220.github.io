@@ -98,4 +98,7 @@ p{
 
 .highlight{
     font-family: Ultra, Garamond, serif;
+    background-color: darkred;
+    color: #fff;
+    text-transform: uppercase;
 }
