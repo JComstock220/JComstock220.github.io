@@ -69,7 +69,7 @@ html{
 
 header{
     margin: 0rem auto;
-    padding:1rem;
+    padding: 1rem;
 }
 
 a{
@@ -81,70 +81,70 @@ h1{
     font-family: Robato, sans-serif;
     letter-spacing: .125rem;
     text-align: center;
-    text-shadow:.125rem .125rem .125rem #333;
+    text-shadow: .125rem .125rem .125rem #333;
     transform: rotate(-5deg);
     margin: 2rem;
 }
 
 .highlight{
     font-family: Ultra, Garamond, serif;
-    font-weight:normal;
-    font-size:4rem;
+    font-weight: normal;
+    font-size: 4rem;
     text-transform: uppercase;
     background-color: darkred;
-    color:#EED;
-    padding:0 1rem;
+    color: #EED;
+    padding: 0 1rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    box-shadow:.187rem .187rem .187rem #333;
+    box-shadow: .187rem .187rem .187rem #333;
 }    
 
 nav {
-    border-top:.0625rem solid #333;
-    border-bottom:.0625rem solid #333;
-    margin:4rem 0 4rem 0;
-    padding:0 5%;
+    border-top: .0625rem solid #333;
+    border-bottom: .0625rem solid #333;
+    margin: 4rem 0 4rem 0;
+    padding: 0 5%;
     text-align: center;
 }
 
 nav a {
-    display:inline-block;
-    font-size:1.75rem;
+    display: inline-block;
+    font-size: 1.75rem;
     padding:2rem 5rem 2rem 0;
-    color:#27476E;
-    font-weight:bold;
+    color: #27476E;
+    font-weight: bold;
 }
 
 nav a:focus,
 nav a:hover,
 nav a:active {
-    font-size:1.5rem;
-    color:#000;
+    font-size: 1.5rem;
+    color: #000;
     text-decoration:line-through;
     text-transform: uppercase;
     transform: rotate(5deg); 
 }
 
 body {
-    font-size:1rem;
-    margin:0 auto;
-    padding:0;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0;
     max-width:100rem;
-    min-width:50rem;
+    min-width: 50rem;
  }
  
  main {
-    width:90%;
-    margin:0 auto;
-    padding-bottom:.25rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: .25rem;
 }
 
 .main-section {
-    display:flex;
+    display: flex;
 }
 
 article {
-    width:75%;
+    width: 75%;
 }
 
 
@@ -159,8 +159,39 @@ p{
     word-spacing: .125rem;
 }
 
+img {
+    display: block;
+    width: 100%;
+    max-width: 25rem;
+}
+
 .article-image{
     float: left;
     margin: 0rem 1rem 0rem 0rem;
+}
+
+.subsection {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-column-gap: 1%;
+}
+
+.subsection figure {
+    padding:0;
+    margin:0;
+    background-color:#EED;
+}
+
+.subsection figcaption {
+    font-size: .75rem;
+    padding: .75rem;
+}
+
+.subsection img {
+    padding-bottom: 1rem;
+    min-width: 5rem;
 }
 
