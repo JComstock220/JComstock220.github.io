@@ -114,6 +114,17 @@ nav a {
     font-weight:bold;
 }
 
+nav a:focus,
+nav a:hover,
+nav a:active {
+    font-size:1.5rem;
+    color:#000;
+    text-decoration:line-through;
+    text-transform: uppercase;
+    transform: rotate(5deg); 
+}
+
+
 h2{
     font-size: 2rem;
     font-family: Robato, sans-serif;  
