@@ -226,7 +226,6 @@ button a {
     color:#EED;
 }
 
-
 aside {
     clear:left;
     margin-left:3rem;
@@ -251,3 +250,19 @@ aside p {
     padding-top:.5rem;
 }
 
+footer {
+    margin:5rem auto 1rem auto;
+    width:90%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1%;
+}
+
+footer :nth-child(2) {
+    text-align:right;
+}
+
+footer a {
+    font-family: 'Times New Roman', Times, serif;
+    color:#737e79;
+}
