@@ -149,12 +149,19 @@ article {
 
 
 h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Robato, sans-serif;  
 }
+
+h3{
+    font-size: 1rem;
+    font-family: Robato, sans-serif;
+}
+
 p{
     font-family: Robato, sans-serif;
     font-size: .75rem;
+    line-height: 1.5rem;
     letter-spacing: .03125rem;
     word-spacing: .125rem;
 }
@@ -168,6 +175,13 @@ img {
 .article-image{
     float: left;
     margin: 0rem 1rem 0rem 0rem;
+}
+
+time {
+    font-style: italic;
+    font-size:.75rem;
+    margin-top: 3rem;
+    padding:.125rem;
 }
 
 .subsection {
@@ -195,3 +209,10 @@ img {
     min-width: 5rem;
 }
 
+aside {
+    clear:left;
+    margin-left:3rem;
+    padding-left:3rem;
+    width:25%;
+    border-left: .0625rem solid #333;
+}
