@@ -222,6 +222,11 @@ button {
     background-color:#27476E;
 }
 
+button a {
+    color:#EED;
+}
+
+
 aside {
     clear:left;
     margin-left:3rem;
