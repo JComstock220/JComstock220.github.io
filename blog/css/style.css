@@ -209,6 +209,18 @@ time {
     min-width: 5rem;
 }
 
+button {
+    margin-top:1rem;
+    padding:1rem;
+    font-family:Ultra;
+    font-size:1.5rem;
+    text-transform:uppercase;
+    background-color:#27476E;
+    box-shadow:.187rem .187rem .187rem #333;
+    border:none;
+    border-radius:.625rem;
+    background-color:#27476E;
+
 aside {
     clear:left;
     margin-left:3rem;
@@ -216,3 +228,20 @@ aside {
     width:25%;
     border-left: .0625rem solid #333;
 }
+
+aside :nth-child(1) {
+    margin-top:0;
+}
+
+aside p {
+    font-size:.75rem;
+    padding-bottom:2rem;
+    border-bottom:.0625rem solid #333;
+}
+
+.expand {
+    font-size:.25rem;
+    display:block;
+    padding-top:.5rem;
+}
+
